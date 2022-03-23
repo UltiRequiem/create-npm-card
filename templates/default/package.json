@@ -9,7 +9,11 @@
     "templates"
   ],
   "dependencies": {
-    "create-create-app": "^7.0.0"
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "create-create-app": "^7.0.0",
+    "inquirer": "^8.2.1",
+    "open": "^8.4.0"
   },
   "license": "{{license}}"
 }
