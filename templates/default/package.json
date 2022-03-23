@@ -1,0 +1,15 @@
+{
+  "name": "{{kebab name}}",
+  "description": "{{description}}",
+  "version": "0.0.0",
+  "author": "{{contact}}",
+  "bin": "src/cli.js",
+  "files": [
+    "src",
+    "templates"
+  ],
+  "dependencies": {
+    "create-create-app": "^7.0.0"
+  },
+  "license": "{{license}}"
+}
