@@ -1,6 +1,8 @@
 # Create NPM Card
 
-Easily Create your own NPM Card.
+> NOT WORKING BECAUSE [create-create-app#31](https://github.com/uetchy/create-create-app/issues/31)
+
+Easily Create your own NPM Card 🚀
 
 > created with [create-create-app](https://github.com/uetchy/create-create-app).
 
