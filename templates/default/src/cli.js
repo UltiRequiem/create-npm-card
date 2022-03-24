@@ -17,7 +17,7 @@ const box = boxen(`${data.name} - ${data.email} \n ${data.bio}`, {
 
 console.log(chalk.green(box));
 
-createPromptModule()([
+inquirer.createPromptModule()([
   {
     type: "list",
     name: "action",

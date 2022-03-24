@@ -10,7 +10,7 @@ create("create-npm-card", {
     return `Thanks for using UltiRequiem/create-create-app 🎉`;
   },
 
-  modifyName(name: string) {
+  modifyName(name) {
     return name.toLowerCase();
   },
 

@@ -1,17 +1,27 @@
 # Create NPM Card
 
-> NOT WORKING BECAUSE
-> [create-create-app#31](https://github.com/uetchy/create-create-app/issues/31)
+Have you seen all the [NPM cards](https://github.com/topics/npm-card) on GitHub
+and now you want one too?
 
-Easily Create your own NPM Card 🚀
-
-> created with [create-create-app](https://github.com/uetchy/create-create-app).
+This repository tries to help you make one easily.
 
 ## Use
 
-```bash
+```sh
 npx create-npm-card <name>
 ```
+
+Now you have a new directory called `<name>`.
+
+## Example
+
+You can see mines as an example 👇
+
+```sh
+npx ultirequiem
+```
+
+> [Repository](https://github.com/UltiRequiem/npm-card)
 
 ## Support
 
