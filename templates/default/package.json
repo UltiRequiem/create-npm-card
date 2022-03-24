@@ -4,16 +4,13 @@
   "version": "0.0.0",
   "author": "{{contact}}",
   "bin": "src/cli.js",
+  "type": "module",
   "files": [
     "src",
     "templates"
   ],
   "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.1",
-    "create-create-app": "^7.0.0",
-    "inquirer": "^8.2.1",
-    "open": "^8.4.0"
+    "create-create-app": "^7.0.0"
   },
   "license": "{{license}}"
 }

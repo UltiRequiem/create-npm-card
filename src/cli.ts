@@ -3,24 +3,31 @@
 import { create } from "create-create-app";
 import { resolve } from "path";
 
-const templateRoot = resolve(__dirname, "..", "templates");
-
-const caveat = `
-Thanks for using UltiRequiem/create-create-app 🎉
-
-If this was useful, please give me a ⭐️
-`;
-
 create("create-npm-card", {
-  templateRoot,
+  templateRoot: resolve(__dirname, "..", "templates"),
 
-  caveat,
+  caveat() {
+    return `Thanks for using UltiRequiem/create-create-app 🎉`;
+  },
 
   modifyName(name: string) {
     return name.toLowerCase();
   },
 
-  after({ answers }) {
-    console.log(`Ok you chose ${answers.architecture}.`);
+  extra: {
+    bio: {
+      type: "input",
+      describe: "Tell us a little about yourself",
+      prompt: "always",
+    },
+    finalNote: {
+      type: "input",
+      describe: "What's your final note?",
+      prompt: "always",
+    },
+  },
+
+  after({ installNpmPackage }) {
+    ["boxen", "inquirer", "open"].forEach(installNpmPackage);
   },
 });
