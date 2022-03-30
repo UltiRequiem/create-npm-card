@@ -42,6 +42,8 @@ You can see mines as an example 👇
 npx ultirequiem
 ```
 
+![Screenshot](https://raw.githubusercontent.com/UltiRequiem/npm-card/306dd39c04cfbf7af90cbe7b8955ece3f3256005/screenshot.png)
+
 > [Repository](https://github.com/UltiRequiem/npm-card)
 
 ## Support
