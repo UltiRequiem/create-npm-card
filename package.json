@@ -3,6 +3,11 @@
   "description": " Easily Create your own NPM Card.",
   "version": "0.0.0",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
+  "homepage": "https://npm-card.js.org",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/ultirequiem"
+  },
   "scripts": {
     "build": "tsup src/cli.ts --minify",
     "clean": "shx rm -rf lib",
@@ -18,8 +23,14 @@
     "create-create-app": "^7.0.0"
   },
   "devDependencies": {
+    "shx": "^0.3.4",
     "tsup": "^4.6.1",
     "typescript": "^4.2.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "github:ultirequiem/create-npm-card",
+  "keywords": [
+    "create",
+    "npm-card"
+  ]
 }
