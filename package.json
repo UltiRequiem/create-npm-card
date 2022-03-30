@@ -1,7 +1,7 @@
 {
   "name": "create-npm-card",
   "description": " Easily Create your own NPM Card.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "homepage": "https://npm-card.js.org",
   "funding": {
