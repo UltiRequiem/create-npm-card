@@ -11,7 +11,28 @@ This repository tries to help you make one easily.
 npx create-npm-card <name>
 ```
 
-Now you have a new directory called `<name>`.
+> You will be asked some questions 👀
+
+Now there is a new directory called `<name>`.
+
+You can edit `src/cli.js` and `src/config.js` freely, all is plain JavaScript,
+use your creativity!
+
+After editing that files, or maybe not, just run
+
+```sh
+node src/cli.js
+```
+
+To publish run
+
+```sh
+npm publish
+```
+
+That's all 🚀
+
+> [npm publish docs](https://docs.npmjs.com/cli/v8/commands/npm-publish)
 
 ## Example
 

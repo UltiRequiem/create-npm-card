@@ -17,25 +17,27 @@ const box = boxen(`${data.name} - ${data.email} \n ${data.bio}`, {
 
 console.log(chalk.green(box));
 
-inquirer.createPromptModule()([
-  {
-    type: "list",
-    name: "action",
-    message: "What do you want to do?",
-    choices: [
-      {
-        name: "Send me an email?",
-        value() {
-          open(`mailto:${data.email}`);
-          console.log(data.farewell);
+inquirer
+  .createPromptModule()([
+    {
+      type: "list",
+      name: "action",
+      message: "What do you want to do?",
+      choices: [
+        {
+          name: "Send me an email?",
+          value() {
+            open(`mailto:${data.email}`);
+            console.log(data.farewell);
+          },
         },
-      },
-      {
-        name: "Exit",
-        value() {
-          console.log(data.farewell);
+        {
+          name: "Exit",
+          value() {
+            console.log(data.farewell);
+          },
         },
-      },
-    ],
-  },
-]).then((answer) => answer.action());
+      ],
+    },
+  ])
+  .then((answer) => answer.action());

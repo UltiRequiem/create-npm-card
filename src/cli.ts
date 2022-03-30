@@ -28,6 +28,6 @@ create("create-npm-card", {
   },
 
   after({ installNpmPackage }) {
-    ["boxen", "inquirer", "open"].forEach(installNpmPackage);
+    ["boxen", "open", "inquirer"].forEach(installNpmPackage);
   },
 });
