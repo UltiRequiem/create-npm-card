@@ -58,6 +58,22 @@ my work 🚀
 
 Don't forget to start the repo ⭐
 
+## Versioning
+
+We use [SemVer](http://semver.org) for versioning. For the versions available,
+see the [tags](https://github.com/UltiRequiem/create-npm-card/tags).
+
+[Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
+Maintainer 💪
+
+See also the full list of
+[contributors](https://github.com/UltiRequiem/create-npm-card/contributors) who
+participated in this project.
+
+## Built With
+
+- [create-create-app](https://github.com/uetchy/create-create-app)
+
 ## Licence
 
 Licensed under the MIT License.
