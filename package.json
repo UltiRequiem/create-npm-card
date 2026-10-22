@@ -4,10 +4,6 @@
   "version": "0.1.0",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "homepage": "https://npm-card.js.org",
-  "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/ultirequiem"
-  },
   "scripts": {
     "build": "tsup src/cli.ts --minify",
     "clean": "shx rm -rf lib",
