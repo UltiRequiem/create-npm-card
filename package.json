@@ -32,5 +32,6 @@
   "keywords": [
     "create",
     "npm-card"
-  ]
+  ],
+  "packageManager": "pnpm@12.6.0"
 }
