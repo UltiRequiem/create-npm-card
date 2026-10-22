@@ -28,7 +28,10 @@
     "typescript": "^4.2.3"
   },
   "license": "MIT",
-  "repository": "github:ultirequiem/create-npm-card",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltiRequiem/create-npm-card.git"
+  },
   "keywords": [
     "create",
     "npm-card"
